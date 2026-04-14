@@ -8,7 +8,6 @@ function useCounter() {
   return { count, increase };
 }
 
-// Use it
 function App() {
   const { count, increase } = useCounter();
 

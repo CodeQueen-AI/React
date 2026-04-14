@@ -1,7 +1,7 @@
 import { Navigate } from "react-router-dom";
 
 function ProtectedRoute({ children }: { children: JSX.Element }) {
-  const isAuth = false; // 🔴 change this to true to allow access
+  const isAuth = false;
 
   if (!isAuth) {
     return <Navigate to="/" />;
