@@ -19,7 +19,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       default: "bg-black text-white hover:bg-gray-800",
       outline: "border border-black text-black hover:bg-black hover:text-white",
     };
-
+  de
     return (
       <button
         ref={ref}
