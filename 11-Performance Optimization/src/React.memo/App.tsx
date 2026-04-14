@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Child from "./components/Child";
+import Child from "./Child";
 
 function App() {
   const [count, setCount] = useState(0);

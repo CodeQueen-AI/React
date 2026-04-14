@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 
-const About = lazy(() => import("./components/About"));
+const About = lazy(() => import("./About"));
 
 function App() {
   return (
