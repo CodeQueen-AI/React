@@ -1,4 +1,4 @@
-import Users from "./components/Users";
+import Users from "./Users";
 
 function App() {
   return (

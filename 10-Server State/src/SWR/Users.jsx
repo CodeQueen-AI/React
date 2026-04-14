@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import { fetchUsers } from "../api/usersApi";
+import { fetchUsers } from "./api/usersApi";
 
 const fetcher = () => fetchUsers();
 

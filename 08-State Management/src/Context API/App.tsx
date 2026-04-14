@@ -3,8 +3,8 @@ import Parent from "./Parent";
 
 function App() {
   const user = {
-    name: "Code",
-    age: 20
+    name: "CodeQueen",
+    age: 19
   };
 
   return (
